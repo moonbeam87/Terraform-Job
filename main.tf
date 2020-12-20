@@ -4,4 +4,11 @@ resource "aws_instance" "TestInstance" {
   tags = {
     Name = "EC2 Terraform Job"
   }
+  key_name = "bob"
+}
+resource "aws_sqs_queue" "TestQueue" {
+  name = "test-queue"
+  tags = {
+    Name = "SQS Terraform Queue"
+  }
 }
