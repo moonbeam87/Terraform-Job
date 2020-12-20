@@ -1,0 +1,3 @@
+[submodule "LambdaExample"]
+	path = LambdaExample
+	url = https://github.com/moonbeam87/LambdaExample.git
