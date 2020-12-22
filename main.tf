@@ -7,6 +7,9 @@ resource "aws_instance" "TestInstance" {
   }
   key_name = "terraform"
 }
+#Security group logs show that addition of SSH from TCP path is needed
+#Needs to be added afterwards in the console
+
 #SQS Terraform
 resource "aws_sqs_queue" "TestQueue" {
   name = "test-queue"
