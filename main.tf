@@ -36,6 +36,10 @@ resource "aws_iam_role" "iam_for_lambda" {
 }
 EOF
 }
+#Policies need to be added - SQS access and EC2 reccomended
+#Needs to be added afterwards in the console for now
+
+
 
 resource "aws_lambda_function" "test_lambda" {
   filename = "LambdaExample.zip"
