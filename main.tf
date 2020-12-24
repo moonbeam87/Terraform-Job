@@ -1,6 +1,6 @@
 #EC2 Terraform
 resource "aws_instance" "TestInstance" {
-  ami = "	ami-053adf54573f777cf"
+  ami = "	ami-0885b1f6bd170450c"
   instance_type = "t2.micro"
   tags = {
     Name = "EC2 Terraform Job"
