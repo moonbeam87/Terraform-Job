@@ -1,6 +1,6 @@
 #EC2 Terraform
 resource "aws_instance" "TestInstance" {
-  ami = "	ami-0885b1f6bd170450c"
+  ami = "ami-0b69ea66ff7391e80"
   instance_type = "t2.micro"
   tags = {
     Name = "EC2 Terraform Job"
@@ -37,7 +37,7 @@ resource "aws_iam_role" "iam_for_lambda" {
 EOF
 }
 #Policies need to be added - SQS access and EC2 reccomended
-#Needs to be added afterwards in the console for now
+#Needs to be added afterwards in the console for no
 
 
 
