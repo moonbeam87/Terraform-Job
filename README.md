@@ -38,7 +38,7 @@ After having a zip file, the next step is to begin the terraform creation proces
 
 After this, all the AWS resources should be created in your account. The first step you will want to take is to check to make sure you have ssh access to your EC2 Instance. **Depending on your terraform version, you may have issues establishing SSH access. In that case, go to your default security group, and add a rule for SSH access on port 22 from your IP address.**
 
-## Part 2:
+## Part 2 and 3:
 Visit this reposity for code and instructions:
 [Part 2](https://github.com/moonbeam87/terraform-job-ansible.git)
 
