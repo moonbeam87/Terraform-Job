@@ -41,5 +41,5 @@ After this, all the AWS resources should be created in your account. The first s
 
 ## Part 2 and 3:
 Visit this reposity for code and instructions:
-[Part 2](https://github.com/moonbeam87/terraform-job-ansible.git)
+[Part 2 and 3](https://github.com/moonbeam87/terraform-job-ansible.git)
 
