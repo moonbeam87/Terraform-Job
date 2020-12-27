@@ -10,6 +10,7 @@
  - Internet connection
  - Access to an AWS Account
 
+## Steps:
 The first step is to clone and enter the github repository:
 
 `git clone https://github.com/moonbeam87/Terraform-Job.git`
